@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".StudentActivity">
+
+    <EditText
+        android:id="@+id/etIdPelajar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/id_pelajar"
+        />
+
+    <EditText
+        android:id="@+id/etNamaPelajar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/nama_pelajar"
+        android:layout_marginTop="18dp"
+        />
+    <EditText
+        android:id="@+id/etStudentNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/no_handphone"
+        android:layout_marginTop="18dp"
+        />
+    <Button
+        android:id="@+id/btKirimPelajar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/kirim"
+        />
+
+
+
+</LinearLayout>
